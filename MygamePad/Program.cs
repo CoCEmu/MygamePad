@@ -64,7 +64,7 @@ namespace MygamePad
                     for (int i = 0; i < 128; i++)
                     {
                         if (state.GetButtons()[i])
-                            Console.WriteLine("Button : " + i.ToString());
+                            Console.WriteLine("Button:" + i.ToString());
                     }
                 }
 
